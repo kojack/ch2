@@ -1,3 +1,4 @@
+#!/usr/local/bin/python3
 """ Module for chapter 2 of Programming Bitcoin
 
     Usage:
@@ -74,10 +75,10 @@ def test_online(x, y):
     """
     print ({x, y}," ", y**2 == x**3 +5*x +7)
 
-# test_online(2,4)
-# test_online(-1,-1)
-# test_online(18,77)
-# test_online(5,7)
+test_online(2,4)
+test_online(-1,-1)
+test_online(18,77)
+test_online(5,7)
 
 # test_online(2,2)
 p1 = Point(-1, -1, 5, 7)
