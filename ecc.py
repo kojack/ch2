@@ -1,3 +1,8 @@
+""" Module for chapter 2 of Programming Bitcoin
+
+    Usage:
+        python3 ecc.py
+"""
 class Point:
 
     def __init__(self, x, y, a, b):
@@ -61,6 +66,12 @@ class Point:
             return self.__class__(x, y, self.a, self.b)
 
 def test_online(x, y):
+    """ Test if point is on the curve
+
+        Args: x, y: the point coordinates
+
+        Return: true or false
+    """
     print ({x, y}," ", y**2 == x**3 +5*x +7)
 
 # test_online(2,4)
