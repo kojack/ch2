@@ -14,7 +14,6 @@ class Point:
         # end::source1[]
         # tag::source2[]
         if self.x is None and self.y is None:  # <1>
-
             return
         # end::source2[]
         # tag::source1[]
@@ -73,11 +72,11 @@ def test_online(x, y):
 
         Return: true or false
     """
-    print ({x, y}," ", y**2 == x**3 +5*x +7)
+    print ({x, y}," ", y**2 == x**3 +7)
 
 test_online(2,4)
 test_online(-1,-1)
-test_online(18,77)
+test_online(0,11)
 test_online(5,7)
 
 # test_online(2,2)
